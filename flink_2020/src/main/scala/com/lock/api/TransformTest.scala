@@ -59,7 +59,6 @@ object TransformTest {
 
 
 // 自定义函数类，key选择器
-case class SensorReading(id: String, timestamp: Long, temperature: Double)
 
 class MyIdSelector extends KeySelector[SensorReading,String]{
   override def getKey(in: SensorReading): String = in.id

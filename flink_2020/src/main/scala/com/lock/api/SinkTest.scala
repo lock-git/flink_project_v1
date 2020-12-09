@@ -63,7 +63,7 @@ object SinkTest {
     resultDS.writeAsCsv("E:\\Code\\bigdata\\flink_project_v1\\src\\main\\resources\\out.txt")
 
     // 2-addSink
-    resultDS.addSink(new StreamingFileSink[SensorReading]())
+    //resultDS.addSink(new StreamingFileSink[SensorReading]())
 
 
     // es

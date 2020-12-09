@@ -22,7 +22,7 @@ object SideOutputTest {
     env.setParallelism(1)
     env.setStateBackend(new MemoryStateBackend())
     env.setStateBackend(new FsStateBackend(""))
-    env.setStateBackend(new RocksDBStateBackend("",true))
+    env.setStateBackend(new RocksDBStateBackend("", true))
 
     val inputStream: DataStreamSource[String] = env.socketTextStream("localhost", 7777)
 
