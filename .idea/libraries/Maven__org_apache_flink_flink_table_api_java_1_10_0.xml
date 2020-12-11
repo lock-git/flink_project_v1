@@ -8,6 +8,7 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://D:/RepMaven/org/apache/flink/flink-table-api-java/1.10.0/flink-table-api-java-1.10.0-sources.jar!/" />
+      <root url="jar://D:/RepMaven/org/apache/flink/flink-table-api-scala_2.11/1.10.0/flink-table-api-scala_2.11-1.10.0.jar!/" />
     </SOURCES>
   </library>
 </component>

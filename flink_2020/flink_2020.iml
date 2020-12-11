@@ -123,5 +123,8 @@
     <orderEntry type="library" name="Maven: org.apache.flink:flink-table-api-java:1.10.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.flink:flink-table-api-scala-bridge_2.11:1.10.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.flink:flink-table-api-scala_2.11:1.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.flink:flink-csv:1.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.flink:flink-json:1.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.flink:flink-jdbc_2.11:1.10.0" level="project" />
   </component>
 </module>
