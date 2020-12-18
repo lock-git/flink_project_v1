@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/flink_2020/HotItemsAnalysis/HotItemsAnalysis.iml" filepath="$PROJECT_DIR$/flink_2020/HotItemsAnalysis/HotItemsAnalysis.iml" />
       <module fileurl="file://$PROJECT_DIR$/flink_2020/flink_2020.iml" filepath="$PROJECT_DIR$/flink_2020/flink_2020.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/flink_project_git.iml" filepath="$PROJECT_DIR$/.idea/flink_project_git.iml" />
     </modules>

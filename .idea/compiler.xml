@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="flink_2020" />
+        <module name="HotItemsAnalysis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="flink_2020" target="1.5" />
+      <module name="HotItemsAnalysis" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
