@@ -10,6 +10,6 @@ object CaseModel {
 
 }
 
-case class UserBehavior(userId: Long, itemId: Long, behavior: String, timestamp: Long)
+case class UserBehavior(userId: Long, itemId: Long, categoryId: Long, behavior: String, timestamp: Long)
 
 case class ItemViewCount(ItemId: Long, WindowEnd: Long, count: Long)
