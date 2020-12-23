@@ -110,7 +110,7 @@ class SortedCountsItem(topN:Int) extends KeyedProcessFunction[Tuple,ItemViewCoun
     val sortedItemList: List[ItemViewCount] = itemList.toList.sortBy((_: ItemViewCount).count)(Ordering.Long.reverse).take(topN)
 
     val resultStr: StringBuilder = new StringBuilder()
-    resultStr.append(s"window_time: ${new Timestamp(timestamp - 100)} 的topN为：\n ")
+    resultStr.append(s"\nwindow_time: ${new Timestamp(timestamp - 100)} 的topN为：\n")
     for (n <- sortedItemList.indices) {
       resultStr.append(s"TOP${n + 1} : itemid为 ${sortedItemList(n).ItemId},counts为 ${sortedItemList(n).count} \n")
     }
