@@ -120,6 +120,9 @@ class SortedCountsItem(topN:Int) extends KeyedProcessFunction[Tuple,ItemViewCoun
     Thread.sleep(1000)
 
     out.collect(resultStr.toString())
+
+    """ 清空状态 """
+    itemListState.clear()
   }
 }
 
