@@ -17,3 +17,13 @@ case class UserBehavior(userId: Long, itemId: Long, categoryId: Long, behavior: 
 case class PvCount(WindowEnd: Long, count: Long)
 
 case class UvCount(WindowEnd: Long, count: Long)
+
+case class MarketingUserBehavior(userId: String, behavior: String, channel: String, timestamp: Long)
+
+case class MarketingCountView(windowStart: String, windowEnd: String, channel: String, behavior: String, count: Long)
+
+case class AdClickLog(userId: Long, adId: Long, province: String, city: String, timestamp: Long)
+
+case class CountByProvince(windowEnd: String, province: String, count: Long)
+
+case class BlackListWarning(userId: Long, adId: Long, msg: String)
