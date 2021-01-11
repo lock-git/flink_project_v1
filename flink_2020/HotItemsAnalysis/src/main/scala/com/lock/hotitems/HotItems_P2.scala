@@ -37,10 +37,11 @@ object HotItems_P2 {
     //  }
     val properties: Properties = new Properties()
     properties.setProperty("bootstrap.servers", "172.16.249.59:9092")
-    properties.setProperty("group.id", "item-group1")
+    properties.setProperty("group.id", "item-group2")
     properties.setProperty("key.deserializer","org.apache.kafka.common.serialization.StringDeserializer")
     properties.setProperty("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer")
-    properties.setProperty("auto.offset.reset", "latest")
+    properties.setProperty("auto.offset.reset", "earliest")
+    properties.setProperty("enable.auto.commit", "false")
 
     // spark
     // val message: InputDStream[ConsumerRecord[String, String]] = KafkaUtils.createDirectStream(ssc,
