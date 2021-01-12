@@ -18,7 +18,7 @@ import org.apache.flink.streaming.api.windowing.time.Time
   * author  Lock.xia
   * Date 2021-01-11
   */
-object OrderPayAnalysis {
+object OrderPayAnalysisWithCep {
   def main(args: Array[String]): Unit = {
 
     val env: StreamExecutionEnvironment = StreamExecutionEnvironment.getExecutionEnvironment
