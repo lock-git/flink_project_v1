@@ -12,6 +12,7 @@
         <module>HotItemsAnalysis</module>
         <module>NetworkFlowAnalysis</module>
         <module>LoginFailDetect</module>
+        <module>OrderAnalysis</module>
     </modules>
 
     <properties>
@@ -22,6 +23,12 @@
 
 
     <dependencies>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.4</version>
+        </dependency>
 
         <dependency>
             <groupId>org.apache.flink</groupId>
