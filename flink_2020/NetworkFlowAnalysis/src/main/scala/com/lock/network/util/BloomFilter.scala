@@ -53,7 +53,7 @@ object BloomFilter {
     if (str == null || str.isEmpty)
       false
     else
-      existsRecur(str, 1)
+      existsRecur(str, 127)
   }
 
   def main(args: Array[String]): Unit = {
