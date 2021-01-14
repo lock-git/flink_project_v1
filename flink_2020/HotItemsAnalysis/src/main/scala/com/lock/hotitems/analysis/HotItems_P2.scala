@@ -1,7 +1,8 @@
-package com.lock.hotitems
+package com.lock.hotitems.analysis
 
 import java.util.Properties
 
+import com.lock.hotitems.entry.{ItemViewCount, UserBehavior}
 import org.apache.flink.api.common.functions.AggregateFunction
 import org.apache.flink.api.common.serialization.SimpleStringSchema
 import org.apache.flink.streaming.api.TimeCharacteristic

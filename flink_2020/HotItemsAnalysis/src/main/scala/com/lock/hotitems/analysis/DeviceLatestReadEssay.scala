@@ -1,8 +1,11 @@
-package com.lock.hotitems
+package com.lock.hotitems.analysis
 
 import java.util
 
 import com.lock.entry.KafkaLogData
+import com.lock.hotitems.function.{DeviceLogDataMap, LogViewEssayProcess}
+import com.lock.hotitems.utils.MotoKafkaUtils
+import com.lock.hotitems.entry.DeviceLogEntry
 import org.apache.commons.lang3.StringUtils
 import org.apache.flink.api.common.serialization.SimpleStringSchema
 import org.apache.flink.streaming.api.TimeCharacteristic

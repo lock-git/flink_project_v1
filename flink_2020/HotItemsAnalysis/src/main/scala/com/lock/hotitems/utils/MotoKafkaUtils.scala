@@ -1,4 +1,4 @@
-package com.lock.hotitems
+package com.lock.hotitems.utils
 
 import java.util.Properties
 

@@ -1,9 +1,11 @@
-package com.lock.hotitems
+package com.lock.hotitems.function
 
 import java.{lang, util}
 
 import com.alibaba.fastjson.{JSON, JSONObject}
 import com.lock.entry.KafkaLogData
+import com.lock.hotitems.entry.DeviceLogEntry
+import com.lock.hotitems.utils.RedisCluster
 import org.apache.commons.lang3.StringUtils
 import org.apache.flink.streaming.api.functions.ProcessFunction
 import org.apache.flink.util.Collector

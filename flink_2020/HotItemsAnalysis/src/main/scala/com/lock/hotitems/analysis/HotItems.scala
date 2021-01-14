@@ -1,8 +1,8 @@
-package com.lock.hotitems
-
+package com.lock.hotitems.analysis
 
 import java.sql.Timestamp
 
+import com.lock.hotitems.entry.{ItemViewCount, UserBehavior}
 import org.apache.flink.api.common.functions.AggregateFunction
 import org.apache.flink.api.common.state.{ListState, ListStateDescriptor}
 import org.apache.flink.api.java.tuple.{Tuple, Tuple1}

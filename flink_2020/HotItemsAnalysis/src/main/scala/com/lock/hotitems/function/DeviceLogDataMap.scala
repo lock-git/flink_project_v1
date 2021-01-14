@@ -1,8 +1,8 @@
-package com.lock.hotitems
+package com.lock.hotitems.function
 
+import com.alibaba.fastjson.JSON
 import com.lock.entry.{KafkaLogData, KafkaLogMsg}
 import org.apache.flink.api.common.functions.MapFunction
-import com.alibaba.fastjson.JSON
 
 /**
   * author  Lock.xia

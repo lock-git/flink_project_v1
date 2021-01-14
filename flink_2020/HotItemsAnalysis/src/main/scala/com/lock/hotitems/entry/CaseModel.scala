@@ -1,4 +1,4 @@
-package com.lock.hotitems
+package com.lock.hotitems.entry
 
 /**
   * 定义输入数据的样例类
