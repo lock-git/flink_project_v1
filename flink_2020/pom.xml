@@ -24,6 +24,14 @@
 
     <dependencies>
 
+        <!-- https://mvnrepository.com/artifact/org.apache.flink/flink-table-planner-blink -->
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-table-planner-blink_${scala.binary.version}</artifactId>
+            <version>${flink.version}</version>
+        </dependency>
+
+
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
@@ -37,10 +45,10 @@
         </dependency>
 
         <dependency>
-                <groupId>redis.clients</groupId>
-                <artifactId>jedis</artifactId>
-                <version>2.8.1</version>
-            </dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.8.1</version>
+        </dependency>
 
         <dependency>
             <groupId>org.apache.flink</groupId>
@@ -109,7 +117,7 @@
             <version>${flink.version}</version>
         </dependency>
 
-        
+
     </dependencies>
 
     <build>

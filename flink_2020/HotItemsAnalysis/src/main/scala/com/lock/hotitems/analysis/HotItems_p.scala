@@ -40,7 +40,7 @@ object HotItems_p {
     """ 转化数据，设置watermark """
     val inStream: DataStream[UserBehavior] = inputStream.map((k: String) => {
       val dataArr: Array[String] = k.split(",")
-      UserBehavior(dataArr(0).toLong, dataArr(0).toLong, dataArr(0).toLong, dataArr(0), dataArr(0).toLong)
+      UserBehavior(dataArr(0).toLong, dataArr(1).toLong, dataArr(2).toInt, dataArr(3), dataArr(4).toLong)
     }).assignAscendingTimestamps((_: UserBehavior).timestamp * 1000)
 
     """ itemId 分组，开窗，预聚合，包装 window 信息 """
